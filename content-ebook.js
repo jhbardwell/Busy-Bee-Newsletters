@@ -12,7 +12,7 @@ const ebookData =  [
       lastname: "Arenson"
     },
     date: {
-      puiblication: "11/18/2018",
+      publication: "11/18/2018",
       lastnlcampaign: "",
       scheduledfofcampaign: "",
       lastfofcampaign: "10/05/2021"
@@ -41,7 +41,7 @@ const ebookData =  [
       lastname: "Ashwood"
     },
     date: {
-      puiblication: "01/21/2017",
+      publication: "01/21/2017",
       lastnlcampaign: "",
       scheduledfofcampaign: "",
       lastfofcampaign: "10/05/2021"
@@ -70,7 +70,7 @@ const ebookData =  [
       lastname: "Bardwell"
     },
     date: {
-      puiblication: "08/09/2017",
+      publication: "08/09/2017",
       lastnlcampaign: "",
       scheduledfofcampaign: "",
       lastfofcampaign: "11/15/2021"
