@@ -4,7 +4,7 @@ A weekly newsletter with periodic reused content is HTML coded by hand.
 ## Problem
 User newsletter generation is labor intensive, many parts remain unchanged or are swapped periodically, and asset records are entangled with content archives.
 ## Solutions
-###Existing
+### Existing
 Manual file search and sort
 ### Proposal 1
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
