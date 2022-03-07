@@ -9,9 +9,7 @@ Manual file search and sort
 ### Proposal 1
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
 ## Goals
-- Lessen the personnel-hour burden of research pdf information retrieval
-- Strike an acceptable compromise between backend system automation and frontend user input flexibility
-- Make the system easy to use and hard to break
+- ddddd
 ## Features
 ### Critical Implemented
 ### Critical Unimplemented
@@ -28,7 +26,7 @@ Encode asset content and schedule metadata as object literals. Create JavaScript
 
 ## Reference Code
 - [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
--[Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
+- [Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
 ## Schedule
 ```mermaid
 gantt
