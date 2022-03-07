@@ -1,23 +1,22 @@
 # Newsletter Concatenator Program
-
 ## Setup
 A weekly newsletter with periodic reused content is HTML coded by hand.
-
 ## Problem
 User newsletter generation is labor intensive, many parts remain unchanged or are swapped periodically, and asset records are entangled with content archives.
-
 ## Solution
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
-
 ## Goals
-
 ## Features
-### Inclusive
-### Wishlist
-### Implemented
-
+### Critical Implemented
+### Critical Unimplemented
+- encode jpeg/png images as base64
+### Wishlist Unimplemented
+- Design webscraper to update content
+- Implement webscraper
+- implement button press command pattern
+- Refactor to use and parse content json files
+- Add pixelart effects to theme selection logos
 ## Schedule
-
 ## Architecture
 
 
