@@ -5,7 +5,6 @@ A weekly newsletter with periodic reused content is HTML coded by hand.
 User newsletter generation is labor intensive, many parts remain unchanged or are swapped periodically, and asset records are entangled with content archives.
 ## Goals
 - Automate repetitive tasks
-- Lessen task personnel-hours expended
 - Optimize time management
 - Organize and properly archive data
 ## Options
