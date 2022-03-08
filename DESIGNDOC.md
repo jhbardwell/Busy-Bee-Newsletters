@@ -26,23 +26,11 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 - JavaScript algorithm
 ## Solution
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
-## Features
-### Critical Implemented
-### Critical Unimplemented
-- Encode jpeg/png images as base64
-### Wishlist Unimplemented
-- Design program to periodically activate and deactivate webscraper
-- Implement timer program
-- Design webscraper to update content
-- Implement webscraper
-- Implement button press command pattern
-- Refactor NCP to use and parse content json files
-- Add pixelart mousemovement input effects to theme selection logos
 ## User Process
 - flowchart
 ## System Architecture
 - class chart
-## Schedule
+## Development Schedule
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -77,6 +65,18 @@ gantt
 ```
 ## Responsibilities
 - keyed list (uml seq diagram)
+## Features
+### Critical Implemented
+### Critical Unimplemented
+- Encode jpeg/png images as base64
+### Wishlist Unimplemented
+- Design program to periodically activate and deactivate webscraper
+- Implement timer program
+- Design webscraper to update content
+- Implement webscraper
+- Implement button press command pattern
+- Refactor NCP to use and parse content json files
+- Add pixelart mousemovement input effects to theme selection logos
 ## Reference Code
 - [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
 - [Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
