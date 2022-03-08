@@ -3,6 +3,10 @@
 A weekly newsletter with periodic reused content is HTML coded by hand.
 ## Problem
 User newsletter generation is labor intensive, many parts remain unchanged or are swapped periodically, and asset records are entangled with content archives.
+## Goals
+- Lessen the personnel-hour burden of newsletter creation
+- Organize and properly archive prior newsletter content for reuse
+- Organize newsletter content time management
 ## Options
 ### Data Organization
 - Text file HTML code [current]
@@ -22,10 +26,6 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 - JavaScript algorithm
 ## Solution
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
-## Goals
-- Lessen the personnel-hour burden of newsletter creation
-- Organize and properly archive prior newsletter content for reuse
-- Organize newsletter content time management
 ## Features
 ### Critical Implemented
 ### Critical Unimplemented
