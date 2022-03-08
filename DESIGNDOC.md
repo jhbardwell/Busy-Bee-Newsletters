@@ -76,7 +76,7 @@ gantt
     Add another diagram to demo page    :48h
 ```
 ## Responsibilities
-- keyed list
+- keyed list (uml seq diagram)
 ## Reference Code
 - [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
 - [Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
