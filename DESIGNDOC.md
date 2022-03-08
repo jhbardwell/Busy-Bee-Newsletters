@@ -75,7 +75,7 @@ gantt
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 ```
-### Responsibilities
+## Responsibilities
 - keyed list
 ## Reference Code
 - [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
