@@ -22,12 +22,12 @@ Encode asset content and schedule metadata as object literals. Create JavaScript
 - Implement button press command pattern
 - Refactor NCP to use and parse content json files
 - Add pixelart mousemovement input effects to theme selection logos
-## Architecture
-
-## Reference Code
-- [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
-- [Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
-## Schedule
+## Development
+### Process
+- flowchart
+### Architecture
+- class chart
+### Schedule
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -60,3 +60,9 @@ gantt
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 ```
+### Responsibilities
+- keyed list
+## Reference Code
+- [Image File Pixel Encoding](https://www.youtube.com/watch?v=RCVxXgJ8xSk&t=842s)
+- [Template Literals](https://www.youtube.com/watch?v=DG4obitDvUA&t=2069s)
+
