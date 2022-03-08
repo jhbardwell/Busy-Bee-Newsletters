@@ -10,8 +10,8 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 ## Options
 ### Data Organization
 - Text file HTML code [current]
-- Object literals with key:vale metadata
-- JSON files with key:vale metadata
+- Object literals with key:value metadata
+- JSON files with key:value metadata
 ### Data Search and Sort
 - Manual [current]
 - JavaScript algorithm
