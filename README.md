@@ -1,4 +1,4 @@
-# Content Snap
+# Newsletter Snap
 Generate and monitor your email newsletter section contents, then snap them together using fun templates
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
@@ -8,7 +8,7 @@ Generate and monitor your email newsletter section contents, then snap them toge
 ## About 
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
-You are? Then congratulations! The Newsletter Concatenator Program may just be for you. (I promise that more mouth-pleasing moniker is pending...)
+You are? Then congratulations! Then Newsletter Snap may just be right up your alley. When you use this program, making newsletters...is a snap.
 
 My program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
 
