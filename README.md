@@ -10,7 +10,7 @@ Are you a private invidivual, entrepeneur, or company sending newsletters with p
 
 You are? Then congratulations! The Newsletter Concatenator Program may just be for you. (A more mouth-pleasing moniker pending...)
 
-My program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for  template section creation, more flexibility, and an overall greater degree of customization. 
+My program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
 
 I welcome your feedback as we create and develop this project in the initial three stages seen in the [roadmap](#Roadmap) below. Then, once I have garnered interest in the fine-tuned limited feature freeware version of our product, I will iterate and polish the full feature version and ... sell it to you at a modest price. Join me in the adventure to make the best, finely crafted newsletters ever: yours!
 ## Demo
