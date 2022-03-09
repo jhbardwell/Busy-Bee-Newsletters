@@ -3,7 +3,7 @@ A system to generate, monitor, and encode email newsletter content
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
-[About](#About) | [Demo](#Demo) | [Install](#Install) | [Bug Report](#Bug Report) | [Design Doc](#Design Doc) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
+[About](#About) | [Demo](#Demo) | [Install](#Install) | [Bug Report](#Bug) | [Design Doc](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
 
 ## About 
 This program was created as a tool for entrepeneurs who send email newsletters to efficiently schedule, organize, encode, and populate the content of those newsletters using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for more template flexibility and an overall greater degree of customization.
