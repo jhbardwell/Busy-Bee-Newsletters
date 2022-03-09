@@ -10,7 +10,7 @@ This program was created as a tool for entrepeneurs who send email newsletters t
 ## Demo
 
 ## Install
-Installation is not avaialble yet as the project is still undergoing development. You are, however, welcome to download the demo code.
+Installation is not available yet as the project is still undergoing development. You are, however, welcome to download the demo code.
 ## Bugs
 Please report all bugs here
 ## Design
