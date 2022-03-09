@@ -47,6 +47,7 @@ This [document](DESIGNDOC.md) details the development goals, system architexture
 - MIT
 ## Contributors
 - Design: jhbardwell
+- Writing: jhbardwell
 - Code: jhbardwell
 - Graphics: jhbardwell
 ## Contact
