@@ -24,16 +24,16 @@ This [document](DESIGNDOC.md) details the development goals, system architexture
 - [X] Create newsletter metadata content
 - [X] Version 1.0 Complete!
 ### Version 2.0
-- [] Create webscraper
-- [] Create program to periodically run webscraper
-- [] Version 2.0 Complete!
+- [ ] Create webscraper
+- [ ] Create program to periodically run webscraper
+- [ ] Version 2.0 Complete!
 ### Version 3.0
-- [] Refactor system to be more customizable
-- [] Build around shuffling and tweaking template components rather than templates
-- [] Create customization GUI
-- [] Solicit project feedback
-- [] Package and launch exe
-- [] Version 3.0 Complete!
+- [ ] Refactor system to be more customizable
+- [ ] Build around shuffling and tweaking template components rather than templates
+- [ ] Create customization GUI
+- [ ] Solicit project feedback
+- [ ] Package and launch exe
+- [ ] Version 3.0 Complete!
 ## License
 /github/license/:user/:repo
 ## Contributors
