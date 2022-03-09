@@ -17,12 +17,13 @@ Please report all bugs here
 This [document](DESIGNDOC.md) details the development goals, system architexture, and schedule of this project
 ## Roadmap
 ### Version 1.0
+- [X] Define target user
 - [X] Write project documentation
 - [X] Design system mechanics
-- [X] Define target user
-- [X] Code search and sort algorithm
-- [X] Create newsletter metadata content
-- [X] Version 1.0 Complete!
+- [ ] Code search and sort algorithm
+- [ ] Create newsletter metadata content
+- [ ] Code simple template GUI
+- [ ] Version 1.0 Complete!
 ### Version 2.0
 - [ ] Create webscraper
 - [ ] Create program to periodically run webscraper
