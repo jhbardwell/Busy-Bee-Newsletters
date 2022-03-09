@@ -1,5 +1,5 @@
 # Content Snap
-A program to generate, monitor, and encode email newsletter contents using section templates
+Generate and monitor your email newsletter section contents, then snap them together using fun templates
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
