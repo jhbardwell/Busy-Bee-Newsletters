@@ -16,11 +16,11 @@ I welcome your feedback as we create and develop this project in the initial thr
 ## Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 ## Install
-Do you wish to install the freeware version? Sorry, you can't, yet. The intial stage of the project is still undergoing development. You are, however, welcome to download the demo code.
+Do you wish to install the freeware version? You can't, not yet. The intial stage of the project is still undergoing development. You are, however, welcome to download the demo code.
 ## Bugs
 Please report all bugs here
 ## Design
-Are you craving the nitty gritty details of design? This [file](DESIGNDOC.md) documents the development goals, system architexture, and schedule of this project
+Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) documents the development goals, system architexture, and schedule of this project.
 ## Roadmap
 ### Version 1.0
 - [X] Define problem scope
