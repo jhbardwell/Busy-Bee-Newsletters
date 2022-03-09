@@ -44,7 +44,7 @@ This [document](DESIGNDOC.md) details the development goals, system architexture
 - [ ] Package and launch exe
 - [ ] Version 3.0 Complete!
 ## License
-- MIT
+- GPL
 ## Contributors
 - Design: jhbardwell
 - Writing: jhbardwell
