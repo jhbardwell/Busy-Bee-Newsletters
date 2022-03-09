@@ -6,7 +6,9 @@ A system to generate, monitor, and encode email newsletter content
 [About](#About) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
 
 ## About 
-Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating content to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? Then the Newsletter Concatenator Program may just be for you! (A more mouth-pleasing moniker pending...)
+Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating content to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
+
+You are? Then congratulations! The Newsletter Concatenator Program may just be for you. (A more mouth-pleasing moniker pending...)
 
 This program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for  template section creation, more flexibility, and an overall greater degree of customization.
 ## Demo
