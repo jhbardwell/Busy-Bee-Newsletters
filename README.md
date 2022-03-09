@@ -1,4 +1,4 @@
-# Newsletter Concatenator Program
+# Content Snap
 A system to generate, monitor, and encode email newsletter content
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
