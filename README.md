@@ -11,8 +11,6 @@ Content sorting and organization can be a chaotic mess. It's much like hunting f
 
 Busy Bees efficiently schedule, organize, encode, and populate newsletter content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. Programmable sorting algorithms--the dance--direct the bees to patrol several sun dappled fields of databases. 
 
-The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
-
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
