@@ -7,15 +7,14 @@ Generate and monitor your email newsletter section contents, then snap them toge
 [About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
 
 # ![About](/images/about.png)About 
+Bees buzzing theme.
+
+This program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
 
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
 You are? Then congratulations! Then Newsletter Snap may just be right up your alley. When you use this program, making newsletters...is a snap.
-
-My program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
-
-I welcome your feedback as we create and develop this project in the three stages seen in the [roadmap](#Roadmap) below. Then, once I have garnered interest in the fine-tuned limited feature freeware version of my product, I will iterate and polish the full feature version and ... sell it to you at a modest price. Join me in the adventure to make the best, finely crafted newsletters ever: yours!
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
