@@ -7,7 +7,7 @@ Send in the bees to organize your email newsletter contents, then honeycomb them
 [About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
 
 # ![About](/images/about.png)About 
-Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They received a shimmy-wiggle dance of directions. They have a cozy nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. When life unloads a digital dump of data in our laps, it's time to send out the Busy Bees.   
+Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They received a shimmy-wiggle dance of directions. They have a cozy nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. When life unloads a digital dump of data directly on our laps, it's time to send out the Busy Bees.   
 
 Busy Bees efficiently schedule, organize, encode, and populate newsletter content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. Programmable sorting algorithms--the dance--direct the bees to patrol several sun dappled fields of databases. 
 
