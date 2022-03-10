@@ -48,9 +48,9 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 # ![License](/images/license.png)License
 - GPL
 # ![Contributors](/images/contributors.png)Contributors
-- Design: jhbardwell
-- Writing: jhbardwell
-- Code: jhbardwell
-- Graphics: jhbardwell
+- Design: [jhbardwell](https://github.com/jhbardwell)
+- Writing: [jhbardwell](https://github.com/jhbardwell)
+- Code: [jhbardwell](https://github.com/jhbardwell)
+- Graphics: [jhbardwell](https://github.com/jhbardwell)
 # ![Contact](/images/contact.png)Contact
 Please address all questions, comments, and concerns [here](jhbardwell@gmail.com)
