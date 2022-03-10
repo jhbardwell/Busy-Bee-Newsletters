@@ -1,4 +1,4 @@
-![Readme Header](/images/header-readme2.png)
+![Readme Header](/images/logo.png)
 
 Generate and monitor your email newsletter section contents, then snap them together using fun templates
 
