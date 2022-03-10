@@ -16,7 +16,7 @@ The current first iteration targets ebook marketers, but the core concept is bro
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
-You are? Then let Busy Bees build your newsletter.
+You are? Then let Busy Bees craft your newsletter for you. See what all the buzz is about.
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
