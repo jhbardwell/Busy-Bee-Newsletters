@@ -1,20 +1,22 @@
 ![Readme Header](/images/header.png)
 
-Generate and monitor your email newsletter section contents, then snap them together using fun templates
+Send in the bees to organize your email newsletter contents, then honeycomb them together using fun templates
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
 [About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
 
 # ![About](/images/about.png)About 
-Bees buzzing theme.
+Content sorting and organization can be a chaotic mess. It's much like hunting for pollen in a random field of flowers. But bees always know where to go. They received a shimmy-wiggle dance of directions. They have a cozy nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. It's time to send out the Busy Bees.   
 
-This program aims to efficiently schedule, organize, encode, and populate newsletter content using a series of template sections which each reference their own metadatabases. The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
+Busy Bees efficiently schedule, organize, encode, and populate newsletter content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. Programmable sorting algorithms--the dance--direct the bees to patrol several sun dappled fields of databases. 
+
+The current first iteration targets ebook marketers, but the core concept is broadly applicable, and further development will add a second layer of abstraction with a drag-and-drop GUI to allow for template section creation, more flexibility, and an overall greater degree of customization. 
 
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
-You are? Then let Busy Bees build your newsletter. When you use this program, making newsletters...is a snap.
+You are? Then let Busy Bees build your newsletter.
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
