@@ -45,12 +45,12 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Solicit project feedback
 - [ ] Package and launch exe
 - [ ] Version 3.0 Complete!
-# License
+# ![License](/images/license.png)License
 - GPL
-# ![Contributors](/images/contributors.png) Contributors
+# ![Contributors](/images/contributors.png)Contributors
 - Design: jhbardwell
 - Writing: jhbardwell
 - Code: jhbardwell
 - Graphics: jhbardwell
-# Contact
+# ![Contact](/images/contact.png)Contact
 Please address all questions, comments, and concerns [here](jhbardwell@gmail.com)
