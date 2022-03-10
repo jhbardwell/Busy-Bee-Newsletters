@@ -21,7 +21,7 @@ Do you wish to see the current project demonatration? Experience it for yourself
 Do you wish to install the freeware version? You can't, not yet. The intial stage of the project is still undergoing development. You are, however, welcome to download the demo code.
 # ![Bugs](/images/bugs.png)Bugs
 Please report all bugs here
-# ![Design](/images/design.png)Design
+# ![Design](/images/designs.png)Design
 Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) documents the development goals, system architexture, and schedule of this project.
 # ![Roadmap](/images/roadmap.png)Roadmap
 ## Version 1.0
