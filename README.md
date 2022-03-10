@@ -1,6 +1,6 @@
 ![Readme Header](/images/header.png)
 
-Send in the bees to organize your email newsletter contents, then honeycomb them together using fun templates
+Send out the bees to organize your email newsletter contents and honeycomb them together using fun templates
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
