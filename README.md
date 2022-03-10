@@ -20,7 +20,7 @@ You are? Then let Busy Bees craft your newsletter for you. See what all the buzz
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
-Do you wish to install the freeware version? You can't, not yet. The intial stage of the project is still undergoing development. You are, however, welcome to download the demo code.
+There is no installation available, yet. The intial stage of the project is still undergoing development. You are welcome to download the demo code.
 # ![Bugs](/images/bugs.png)Bugs
 Please report all bugs here
 # ![Design](/images/designs.png)Design
