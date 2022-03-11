@@ -15,7 +15,7 @@ In its current iteration, the program uses a series of newsletter-themed templat
 
 When life dumps a mountain of data in your lap, don't get mad, get busy. Send out the Busy Bees! 
 
-# ![Users](/images/users.png)Users
+# ![Users](/images/user.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
 You are? Then let Busy Bees craft your newsletter for you.
