@@ -4,17 +4,17 @@ Send out the bees to organize your email newsletter contents and honeycomb them 
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
-[About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Contact](#Contact)
+[About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Newsletter](#Newsletter) | [Contact](#Contact)
 
 # ![About](/images/about.png)About 
-Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They received a shimmy-wiggle dance of directions. They have a cozy nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. When life unloads a digital dump of data directly on our laps, it's time to send out the Busy Bees.   
+Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They received a shimmy-wiggle dance of directions. They have a cozy hexegon nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. When life unloads a digital dump of data directly on our laps, it's time to send out the Busy Bees.   
 
 Busy Bees efficiently schedule, organize, encode, and populate newsletter content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. Programmable sorting algorithms--that all important dance--direct the bees to patrol several sun dappled fields of databases. 
 
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
 
-You are? Then let Busy Bees craft your newsletter for you. See what all the buzz is about.
+You are? Then let Busy Bees craft your newsletter for you.
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
@@ -52,5 +52,7 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - Writing: [jhbardwell](https://github.com/jhbardwell)
 - Code: [jhbardwell](https://github.com/jhbardwell)
 - Graphics: [jhbardwell](https://github.com/jhbardwell)
+# ![Newsletter](/images/newsletter.png)Newsletter
+Do you want all the latest buzz about ongoing app developments and exciting new projects? Then sign up here.
 # ![Contact](/images/contact.png)Contact
 Please address all questions, comments, and concerns [here](jhbardwell@gmail.com)
