@@ -11,7 +11,9 @@ Content sorting and organization can be a chaotic mess. It's much like hunting f
 
 Busy Bees efficiently schedule, organize, encode, and populate content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. And templates can be organized into themed hives. Programmable sorting algorithms--that all important dance--direct the bees to patrol several sun dappled fields of databases that surround a given hive. One could also devise a beekeeper to clean the hives and tend to flowers favored by particular bees,  ala a webscraper, to search for and maintain our databases. Perhaps I am stretching the metaphor like honey scraped across too much bread.
 
-In its current iteration, the program uses a series of newsletter-themed templates with associated sample databases, but the underlying hierarchical concept is both modular and broadly applicable. After [Version 2.3](#Roadmap) is finished, the freeware portion of this project will be finished. However, the final POC will remain available on github.io, and links will be posted to the next successive stage of development. When life dumps a mountain of data in your lap, don't get mad, get busy. Send out the Busy Bees! 
+In its current iteration, the program uses a series of newsletter-themed templates with associated sample databases, but the underlying hierarchical concept is both modular and broadly applicable. After [Version 2.3](#Roadmap) is finished, the freeware portion of this project will also be finished. However, the final proof of concept prototype shall forever remain available on github.io, and links will be posted to the next successive stage of development.
+
+When life dumps a mountain of data in your lap, don't get mad, get busy. Send out the Busy Bees! 
 
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
@@ -55,10 +57,13 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Package and launch product
 - [ ] Version 4.4 Complete
 ## Version 5.0+ - Theme Iteration
-- [ ] Apply monthly subscription business model
-- [ ] Develop new proprietary templates
-- [ ] Develop new proprietary databases
-- [ ] Package templates and associated databases as new avaiable themes
+- [ ] Use monthly subscription business model
+- [ ] Develop new algorithms (bee directions)
+- [ ] Develop new or repurpose old sections (nooks)
+- [ ] Develop new templates (honeycombs)
+- [ ] Develop new proprietary databases (flowers)
+- [ ] Package templates and associated databases as new themes (hives)
+- [ ] Iterate and improve old themes
 - [ ] Version 5.X Complete
 # ![License](/images/license.png)License
 - GPL
