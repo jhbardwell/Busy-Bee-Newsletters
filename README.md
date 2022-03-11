@@ -63,7 +63,6 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Develop new proprietary databases (flowers)
 - [ ] Package templates and associated databases as new themes (hives)
 - [ ] Iterate and improve old themes
-- [ ] Version 5.X Complete
 # ![License](/images/licenses.png)License
 - GPL
 # ![Contributors](/images/contributors.png)Contributors
