@@ -11,7 +11,7 @@ Content sorting and organization can be a chaotic mess. It's much like hunting f
 
 Busy Bees efficiently schedule, organize, encode, and populate content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. And templates can be organized into themed hives. Programmable sorting algorithms--that all important dance--direct the bees to patrol several sun dappled fields of databases that surround a given hive. 
 
-In its current iteration, the program uses a series of newsletter-themed templates, but the underlying hierarchical concept is both modular and broadly applicable. After [Version 2.3](#Roadmap) is finished, the freeware portion of the development stage will be complete, but the final POC will remain available on github.io, and links will be posted to find the next successive stage of development.  
+In its current iteration, the program uses a series of newsletter-themed templates with associated sample databases, but the underlying hierarchical concept is both modular and broadly applicable. After [Version 2.3](#Roadmap) is finished, the freeware portion of this project will be finished. However, the final POC will remain available on github.io, and links will be posted to the next successive stage of development. When life dumps a mountain of data in your lap, don't get mad, get busy. Send out the Busy Bees! 
 
 # ![Users](/images/users.png)Users
 Are you a private invidivual, entrepeneur, or company sending newsletters with periodic repeating information to a ravenous content-craving public? Do you find yourself scraping the bottom of the barrel once too many times in a never ending slog to satiate your consumers? Did you ever wish there was a tool that could automatically sort that archived content you spent so much time generating, manage that pesky repetition at levels you preset, and compose that newsletter using section templates you select? 
@@ -36,24 +36,24 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Code search and sort algorithm
 - [X] Create newsletter metadata content
 - [ ] Code simple template GUI
-- [ ] Version 1.4 Complete!
+- [ ] Version 1.4 Complete
 ## Version 2.0 - Improved Functionality
 - [ ] Create webscraper to update metadata
 - [ ] Create program to periodically run webscraper
-- [ ] Version 2.3 Complete!!
+- [ ] Version 2.3 Complete
 ## Version 3.0 - Modular Refactoring
 - [ ] Refactor system to be more customizable
 - [ ] Design and implement template section creator
 - [ ] Design and implement metadata generator
 - [ ] Create customization GUI
 - [ ] Solicit beta user feedback
-- [ ] Version 3.5 Complete!!!
+- [ ] Version 3.5 Complete
 ## Version 4.0 - Polish and Pizazz
 - [ ] Generate product hype
 - [ ] Update documentation and solicit funds
 - [ ] Polish product until it shines
 - [ ] Package and launch product
-- [ ] Version 4.4 Complete!!!!!
+- [ ] Version 4.4 Complete
 # ![License](/images/license.png)License
 - GPL
 # ![Contributors](/images/contributors.png)Contributors
