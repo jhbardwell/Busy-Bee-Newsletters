@@ -4,7 +4,7 @@ Send out the bees to organize your email newsletter contents and honeycomb them 
 
 [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/jhbardwell/Newsletter-Concatenator-Program)
 
-[About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [Contributors](#Contributors) | [Newsletter](#Newsletter) | [Contact](#Contact)
+[About](#About) | [Users](#Users) | [Demo](#Demo) | [Install](#Install) | [Bugs](#Bugs) | [Design](#Design) | [Roadmap](#Roadmap) | [License](#License) | [People](#People) | [Newsletter](#Newsletter) | [Contact](#Contact)
 
 # ![About](/images/about.png)About 
 Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They have received a shimmy-wiggle dance of directions. They have a cozy hexegon nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. And bees craft different combinations of honeycomb for each hive with precisce, meticulous care. We could learn much watching the bees work. Why not pattern digital content management using methods pioneered by such diligent experts?
@@ -65,11 +65,14 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Iterate and improve old themes
 # ![License](/images/licenses.png)License
 - GPL
-# ![Contributors](/images/contributors.png)Contributors
+# ![People](/images/contributors.png)People
+## Contributors
 - Design: [jhbardwell](https://github.com/jhbardwell)
 - Writing: [jhbardwell](https://github.com/jhbardwell)
 - Code: [jhbardwell](https://github.com/jhbardwell)
 - Graphics: [jhbardwell](https://github.com/jhbardwell)
+## Investors
+If this project piques your interest, you can invest here
 # ![Newsletter](/images/newsletters.png)Newsletter
 Do you want all the latest buzz about ongoing app developments and exciting new projects? Then sign up here.
 # ![Contact](/images/contact.png)Contact
