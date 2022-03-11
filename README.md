@@ -9,7 +9,7 @@ Send out the bees to organize your email newsletter contents and honeycomb them 
 # ![About](/images/about.png)About 
 Content sorting and organization can be a chaotic mess. It's much like hunting for the right pollen-laden petals among a random field of flowers. But bees always know where to go. They have received a shimmy-wiggle dance of directions. They have a cozy hexegon nook waiting for that pollen. They have built an entire honeycomb of nooks. Their honeycomb is dynamic, changing at need. And a different combination of hobneycombs conveniently slot into each hive. 
 
-Busy Bees efficiently schedule, organize, encode, and populate content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. And templates can be organized into themed hives. Programmable sorting algorithms--that all important dance--direct the bees to patrol several sun dappled fields of databases that surround a given hive. 
+Busy Bees efficiently schedule, organize, encode, and populate content in lieu of pollen. They use a series of template sections instead of nooks, which can be rearranged into different honeycomb patterns of templates. And templates can be organized into themed hives. Programmable sorting algorithms--that all important dance--direct the bees to patrol several sun dappled fields of databases that surround a given hive. One could also devise a beekeeper to clean the hives and tend to flowers favored by particular bees,  ala a webscraper, to search for and maintain our databases. Perhaps I am stretching the metaphor like honey scraped across too much bread.
 
 In its current iteration, the program uses a series of newsletter-themed templates with associated sample databases, but the underlying hierarchical concept is both modular and broadly applicable. After [Version 2.3](#Roadmap) is finished, the freeware portion of this project will be finished. However, the final POC will remain available on github.io, and links will be posted to the next successive stage of development. When life dumps a mountain of data in your lap, don't get mad, get busy. Send out the Busy Bees! 
 
@@ -20,7 +20,7 @@ You are? Then let Busy Bees craft your newsletter for you.
 # ![Demo](/images/demo.png)Demo
 Do you wish to see the current project demonatration? Experience it for yourself here.
 # ![Install](/images/install.png)Install
-There is no installation available, yet. The intial stage of the project is still undergoing development. You are welcome to download the demo code.
+There is no installation available, yet. The intial stage of the project is still undergoing development. You are welcome to download the current demo code.
 # ![Bugs](/images/bugs.png)Bugs
 Please report all bugs here
 # ![Design](/images/designs.png)Design
@@ -54,6 +54,12 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Polish product until it shines
 - [ ] Package and launch product
 - [ ] Version 4.4 Complete
+## Version 5.0+ - Theme Iteration
+- [ ] Apply monthly subscription business model
+- [ ] Develop new proprietary templates
+- [ ] Develop new proprietary databases
+- [ ] Package templates and associated databases as new avaiable themes
+- [ ] Version 5.X Complete
 # ![License](/images/license.png)License
 - GPL
 # ![Contributors](/images/contributors.png)Contributors
