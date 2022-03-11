@@ -27,9 +27,43 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 ## Solution
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
 ## User Process
-- flowchart
+```mermaid
+graph TD
+   A(Coffee machine <br>not working) --> B{Machine has power?}
+   B -->|No| H(Plug in and turn on)
+   B -->|Yes| C{Out of beans or water?} -->|Yes| G(Refill beans and water)
+   C -->|No| D{Filter warning?} -->|Yes| I(Replace or clean filter)
+   D -->|No| F(Send for repair)
+```
 ## System Architecture
-- class chart
+```mermaid
+classDiagram
+   Person <|-- Student
+   Person <|-- Professor
+   Person : +String name
+   Person : +String phoneNumber
+   Person : +String emailAddress
+   Person: +purchaseParkingPass()
+   Address "1" <-- "0..1" Person:lives at
+   class Student{
+      +int studentNumber
+      +int averageMark
+      +isEligibleToEnrol()
+      +getSeminarsTaken()
+    }
+    class Professor{
+      +int salary
+    }
+    class Address{
+      +String street
+      +String city
+      +String state
+      +int postalCode
+      +String country
+      -validate()
+      +outputAsLabel()  
+    }	
+```
 ## Development Schedule
 ```mermaid
 gantt
