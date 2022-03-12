@@ -37,6 +37,7 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Code search and sort algorithm
 - [X] Create newsletter metadata content
 - [ ] Code simple template GUI
+- [ ] Unit test and optimize code
 - [ ] Soft launch prototype, alpha vesion, freeware
 - [ ] Solicit alpha user feedback
 ## Stage 3 - Prune
@@ -46,6 +47,7 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Design and implement template section creator
 - [ ] Design and implement metadata generator
 - [ ] Create customization GUI
+- [ ] Unit test and optimize code
 ## Stage 4 - Playtest
 - [ ] Soft launch beta version
 - [ ] Solicit beta user feedback
@@ -61,6 +63,7 @@ Are you craving the nitty gritty details of design? [This file](DESIGNDOC.md) do
 - [ ] Develop new or repurpose old sections (nooks)
 - [ ] Develop new templates (honeycombs)
 - [ ] Develop new proprietary databases (flowers)
+- [ ] Unit test and optimize code
 - [ ] Package templates and associated databases as new themes (hives)
 - [ ] Iterate and improve old themes
 # ![License](/images/licenses.png)License
