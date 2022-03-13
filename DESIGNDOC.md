@@ -30,37 +30,67 @@ Encode asset content and schedule metadata as object literals. Create JavaScript
 ```mermaid
 flowchart LR
   %%relationships
-   updatefxn--manages-->ebookscraper--updates-->ebooksdatabase
+  buttongeneratenewsletter--activates-->fxngenerate
+  buttonchoosedirections--selects-->DIRECTIONS
+  buttonchoosetemplate--selects-->TEMPLATES
+  databasebulletins--filtered-->mappedbulletins
+  databaseebooks--filtered-->mappedebooks
+  databaseauthors--filtered-->mappedauthors
+  databasewebcomics--filtered-->mappedwebcomics
+  fxngarbage--deletes-->MAPDATABASES
+  fxngenerate--generates-->HTML
+  fxngenerate--runs-->garbagefxn
+  fxnprocessinput--eventlistens-->GUI
+  fxnrender--renders-->GUI
+  fxnupdate--manages-->ebookscraper--updates-->databaseebooks
+  mappedbulletins--populates-->sectionbulletins
+  mappedebooks--populates-->sectionebooks
+  mappedauthors--populates-->sectionauthors
+  mappedwebcomics--populates-->sectionwebcomics
+  DIRECTIONS--manages-->MAPDATABASES
+  TEMPLATES--filters-->DATABASES
    %% structure
    subgraph MAIN [Main Loop]
-      renderfxn[Render GUI Function]
-      generatefxn[Create Newsletter Function]
-      updatefxn[Update Ebooks Database]
+      fxnprocessinput[Process User Input Function]
+      fxnrender[Render GUI Function]
+      fxngenerate[Create Newsletter Function]
+      fxngarbage[Garbage Collection Function]
+      fxnupdate[Update Ebooks Database]
+      end
+   subgraph DIRECTIONS [Directions]
+      end
+   subgraph HTML [HTML Output]
       end
    subgraph GUI [GUI]
-      choosesection{Choose Section}
-      choosetemplate{Choose Template}
-      choosedirections{Choose Directions}
-      generatenewsletter{Generate Newsletter HTML}
+      buttonchoosetemplate{Choose Template Buttons}
+      buttonchoosedirections{Choose Directions RadioButtons}
+      buttongeneratenewsletter{Generate Newsletter HTML Button}
+      buttonmaketemplate{Make Template Button}
       end 
    subgraph DATABASES [Databases]
-     bulletindatabase[(Bulletin Content)]
-     ebooksdatabase[(Ebooks Content)]
-     authordatabase[(Author Interview Content)]
-     webcomicsdatabase[(Webcomics Content)]
+     databasebulletins[(Bulletin Content)]
+     databaseebooks[(Ebooks Content)]
+     databaseauthors[(Author Interview Content)]
+     databasewebcomics[(Webcomics Content)]
+     end
+   subgraph MAPDATABASES [Mapped Databases]
+     mappedbulletins[(Mapped Bulletin Content)]
+     mappedebooks[(Mapped Ebooks Content)]
+     mappedauthors[(Mapped Author Interview Content)]
+     mappedwebcomics[(Mapped Webcomics Content)]
      end
    subgraph WEBSCRAPERS [Webscrapers]
      ebookscraper[[Ebook Content Scrapers]] 
      end
-   subgraph TEMPLATE [Template]
+   subgraph TEMPLATES [Templates]
       fofnewsletter[Flight of Fantasy Newsletter]
       genericnewsletter[Generic Newsletter]
       end
    subgraph SECTION [Section]
-      bulletinsection[Bulletin]
-      ebookssection[Ebooks]
-      authorsection[Author Interviews]
-      webcomicsection[Webcomic Reviews]
+      sectionbulletins[Bulletin]
+      sectionebooks[Ebooks]
+      sectionauthors[Author Interviews]
+      sectionwebcomics[Webcomic Reviews]
       end
 ```
 ## System Architecture
