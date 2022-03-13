@@ -28,12 +28,40 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
 ## User Process
 ```mermaid
-graph TD
-   A(Coffee machine <br>not working) --> B{Machine has power?}
-   B -->|No| H(Plug in and turn on)
-   B -->|Yes| C{Out of beans or water?} -->|Yes| G(Refill beans and water)
-   C -->|No| D{Filter warning?} -->|Yes| I(Replace or clean filter)
-   D -->|No| F(Send for repair)
+flowchart LR
+  %%relationships
+   updatefxn--manages-->ebookscraper--updates-->ebooksdatabase
+   %% structure
+   subgraph MAIN [Main Loop]
+      renderfxn[Render GUI Function]
+      generatefxn[Create Newsletter Function]
+      updatefxn[Update Ebooks Database]
+      end
+   subgraph GUI [GUI]
+      choosesection{Choose Section}
+      choosetemplate{Choose Template}
+      choosedirections{Choose Directions}
+      generatenewsletter{Generate Newsletter HTML}
+      end 
+   subgraph DATABASES [Databases]
+     bulletindatabase[(Bulletin Content)]
+     ebooksdatabase[(Ebooks Content)]
+     authordatabase[(Author Interview Content)]
+     webcomicsdatabase[(Webcomics Content)]
+     end
+   subgraph WEBSCRAPERS [Webscrapers]
+     ebookscraper[[Ebook Content Scrapers]] 
+     end
+   subgraph TEMPLATE [Template]
+      fofnewsletter[Flight of Fantasy Newsletter]
+      genericnewsletter[Generic Newsletter]
+      end
+   subgraph SECTION [Section]
+      bulletinsection[Bulletin]
+      ebookssection[Ebooks]
+      authorsection[Author Interviews]
+      webcomicsection[Webcomic Reviews]
+      end
 ```
 ## System Architecture
 ```mermaid
