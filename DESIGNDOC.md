@@ -26,23 +26,28 @@ User newsletter generation is labor intensive, many parts remain unchanged or ar
 - JavaScript algorithm
 ## Solution
 Encode asset content and schedule metadata as object literals. Create JavaScript algorithm comparing pending to prior weekly contents. Make HTML template literals. Insert algorithm output. Update schedule metadata. Autogenerate newsletter HTML.
-## User Process
+## System Architecture
 ```mermaid
-flowchart LR
+%%{init: {'theme': 'base', 'themeVariables': 
+{ 'fontSize': '18px', 'fontFamily': 'Inter',
+'primaryColor': '#DDDA4D', 'edgeLabelBackground':'#F7F6DA', 'tertiaryColor': '#D5DEF6'}}}%%
+flowchart TD
   %%relationships
-  buttongeneratenewsletter--activates-->fxngenerate
-  buttonchoosedirections--selects-->DIRECTIONS
-  buttonchoosetemplate--selects-->TEMPLATES
+  buttongeneratenewsletter--queues-->eventgeneratenewsletter
+  buttonchoosedirections--queues-->eventchoosedirections
+  buttonchoosetemplate--queues-->eventchoosetemplate
+  buttonmaketemplate--queues-->eventmaketemplate
   databasebulletins--filtered-->mappedbulletins
   databaseebooks--filtered-->mappedebooks
   databaseauthors--filtered-->mappedauthors
   databasewebcomics--filtered-->mappedwebcomics
+  ebookscraper--updates-->databaseebooks
   fxngarbage--deletes-->MAPDATABASES
   fxngenerate--generates-->HTML
   fxngenerate--runs-->garbagefxn
-  fxnprocessinput--eventlistens-->GUI
+  fxnprocessinput--eventlistens-->EVENTS
   fxnrender--renders-->GUI
-  fxnupdate--manages-->ebookscraper--updates-->databaseebooks
+  fxnupdate--manages-->ebookscraper
   mappedbulletins--populates-->sectionbulletins
   mappedebooks--populates-->sectionebooks
   mappedauthors--populates-->sectionauthors
@@ -51,15 +56,18 @@ flowchart LR
   TEMPLATES--filters-->DATABASES
    %% structure
    subgraph MAIN [Main Loop]
+      fxndirections[Directions Algorithm]
       fxnprocessinput[Process User Input Function]
       fxnrender[Render GUI Function]
       fxngenerate[Create Newsletter Function]
       fxngarbage[Garbage Collection Function]
       fxnupdate[Update Ebooks Database]
       end
-   subgraph DIRECTIONS [Directions]
-      end
-   subgraph HTML [HTML Output]
+   subgraph EVENTS [Event Queue]
+      eventchoosedirections
+      eventchoosetemplate
+      eventgeneratenewsletter
+      eventmaketemplate
       end
    subgraph GUI [GUI]
       buttonchoosetemplate{Choose Template Buttons}
@@ -93,67 +101,33 @@ flowchart LR
       sectionwebcomics[Webcomic Reviews]
       end
 ```
-## System Architecture
-```mermaid
-classDiagram
-   Person <|-- Student
-   Person <|-- Professor
-   Person : +String name
-   Person : +String phoneNumber
-   Person : +String emailAddress
-   Person: +purchaseParkingPass()
-   Address "1" <-- "0..1" Person:lives at
-   class Student{
-      +int studentNumber
-      +int averageMark
-      +isEligibleToEnrol()
-      +getSeminarsTaken()
-    }
-    class Professor{
-      +int salary
-    }
-    class Address{
-      +String street
-      +String city
-      +String state
-      +int postalCode
-      +String country
-      -validate()
-      +outputAsLabel()  
-    }	
-```
+
 ## Development Schedule
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
-    title       Adding GANTT diagram functionality to mermaid
+    title       Newsletter Concatenation Program Schedule
     excludes    weekends
-    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
-
-    section A section
-    Completed task            :done,    des1, 2014-01-06,2014-01-08
-    Active task               :active,  des2, 2014-01-09, 3d
-    Future task               :         des3, after des2, 5d
-    Future task2              :         des4, after des3, 5d
-
-    section Critical tasks
-    Completed task in the critical line :crit, done, 2014-01-06,24h
-    Implement parser and jison          :crit, done, after des1, 2d
-    Create tests for parser             :crit, active, 3d
-    Future task in critical line        :crit, 5d
-    Create tests for renderer           :2d
-    Add to mermaid                      :1d
-    Functionality added                 :milestone, 2014-01-25, 0d
-
-    section Documentation
-    Describe gantt syntax               :active, a1, after des1, 3d
-    Add gantt diagram to demo page      :after a1  , 20h
-    Add another diagram to demo page    :doc1, after a1  , 48h
-
-    section Last section
-    Describe gantt syntax               :after doc1, 3d
-    Add gantt diagram to demo page      :20h
-    Add another diagram to demo page    :48h
+    
+    todayMarker stroke-width:5px,stroke:#0f0,opacity:0.5
+    
+    section Plan
+    Define problem scope      :done,    scope, 2022-01-06,5d
+    Define target user        :done,    user, 2022-01-06, 5d
+    Draft README              :done     readme, after user, 5d
+    Draft DESIGNDOC           :done     designdoc, after draftdocs, 5d
+    Create Architecture Flowchart  :done  architureflow, 2022-03-10, 2d
+    Create 
+    
+    section Prototype
+    
+    section Prune
+    
+    section Playtest
+    
+    section Polish
+    
+    section Post
 ```
 ## Responsibilities
 - keyed list (uml seq diagram)
