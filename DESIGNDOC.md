@@ -29,9 +29,8 @@ Encode asset content and schedule metadata as object literals. Create JavaScript
 ## System Architecture
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': 
-{ 'fontSize': '18px', 'fontFamily': 'Inter',
-'primaryColor': '#DDDA4D', 'edgeLabelBackground':'#F7F6DA', 'tertiaryColor': '#D5DEF6'}}}%%
-flowchart TD
+{ 'primaryColor': '#DDDA4D', 'edgeLabelBackground':'#F7F6DA', 'tertiaryColor': '#D5DEF6'}}}%%
+flowchart LR
   %%relationships
   buttongeneratenewsletter--queues-->eventgeneratenewsletter
   buttonchoosedirections--queues-->eventchoosedirections
@@ -44,7 +43,6 @@ flowchart TD
   ebookscraper--updates-->databaseebooks
   fxngarbage--deletes-->MAPDATABASES
   fxngenerate--generates-->HTML
-  fxngenerate--runs-->garbagefxn
   fxnprocessinput--eventlistens-->EVENTS
   fxnrender--renders-->GUI
   fxnupdate--manages-->ebookscraper
@@ -104,6 +102,8 @@ flowchart TD
 
 ## Development Schedule
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': 
+{ 'primaryColor': '#DDDA4D', 'edgeLabelBackground':'#F7F6DA', 'tertiaryColor': '#D5DEF6'}}}%%
 gantt
     dateFormat  YYYY-MM-DD
     title       Newsletter Concatenation Program Schedule
@@ -112,16 +112,24 @@ gantt
     todayMarker stroke-width:5px,stroke:#0f0,opacity:0.5
     
     section Plan
-    Define problem scope      :done,    scope, 2022-01-06,5d
-    Define target user        :done,    user, 2022-01-06, 5d
-    Draft README              :done     readme, after user, 5d
-    Draft DESIGNDOC           :done     designdoc, after draftdocs, 5d
-    Create Architecture Flowchart  :done  architureflow, 2022-03-10, 2d
-    Create 
+    Define problem scope      :done,  scope, 2022-01-06,5d
+    Define target user        :done,  user, 2022-01-06, 5d
+    Draft readme              :done,  readmedraft, after user, 5d
+    Iterate readme            :done,  readmeiterate, after readmedraft, 5d
+    Draft designdoc           :done,  designdocdraft, after readmedraft, 5d
+    Draft architecture        :done,  archituredraft, 2022-02-25, 3d
+    Code architecture         :done,  architurecode, after archituredraft, 3d
+    Draft gantt chart         :done,  ganttdraft, 2022-03-03, 3d
+    Code gantt chart          :done,  ganttcode, after ganttdraft, 3d
     
     section Prototype
+    Create sample databases    :done, databasecreate, 2022-01-05, 2d
+    Create filter algorithm    :done, algofiltercreate, 2022-01-10, 3d
+    Iterate filter algorithm   :done, algofilteriterate, algofiltercreate, 4d
+    Create main program        :done, maincreate, 2022-03-10, 3d
     
     section Prune
+    Softcode filter algorithm   :active, algofiltersoftcode, 2022-03-15, 3d
     
     section Playtest
     
