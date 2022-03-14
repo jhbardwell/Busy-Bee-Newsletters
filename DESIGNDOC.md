@@ -41,7 +41,7 @@ flowchart LR
   databaseauthors--filtered-->mappedauthors
   databasewebcomics--filtered-->mappedwebcomics
   ebookscraper--updates-->databaseebooks
-  fxngarbage--deletes-->MAPDATABASES
+  fxngarbagecollection--deletes-->MAPDATABASES
   fxngenerate--generates-->HTML
   fxnprocessinput--eventlistens-->EVENTS
   fxnrender--renders-->GUI
@@ -58,7 +58,7 @@ flowchart LR
       fxnprocessinput[Process User Input Function]
       fxnrender[Render GUI Function]
       fxngenerate[Create Newsletter Function]
-      fxngarbage[Garbage Collection Function]
+      fxngarbagecollection[Garbage Collection Function]
       fxnupdate[Update Ebooks Database]
       end
    subgraph EVENTS [Event Queue]
