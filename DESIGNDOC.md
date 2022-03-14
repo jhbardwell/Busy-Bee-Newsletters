@@ -41,6 +41,7 @@ flowchart LR
   databaseauthors--filtered-->mappedauthors
   databasewebcomics--filtered-->mappedwebcomics
   ebookscraper--updates-->databaseebooks
+  fxndirections--runs-->DIRECTIONS
   fxngarbagecollection--deletes-->MAPDATABASES
   fxngenerate--generates-->HTML
   fxnprocessinput--eventlistens-->EVENTS
